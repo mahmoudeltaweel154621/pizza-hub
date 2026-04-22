@@ -6,7 +6,7 @@ import google.generativeai as ai
 st.title('Chat with our AI Assitant✨')
 
 # 3. Gemini API setup
-key= st.secrets['API_KEY']
+key= st.secrets['Gemini API Key']
 ai.configure(api_key=key)
 model = ai.GenerativeModel(model_name='gemini-3.1-flash-lite-preview')
 
